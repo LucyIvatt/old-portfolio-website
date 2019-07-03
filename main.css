@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #252934;
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background:#1E242C;
+    border-bottom: 3px solid #14919E;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .jumbotron {
+    color: white;
+    background-image: url("laptop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    filter: blur(5px)
+  }
+
+  .container {
+      font-weight: 1000;
+  }
