@@ -10,7 +10,9 @@
         <link rel="stylesheet" type="text/css" href="main.css">
         <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
         
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" />
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script>
+
     </head>
     <body>
         <nav class="navbar navbar-expand-md fixed-top"> <!--At what point the navigation bar expands from vertical/hamburger to full-size: currently set to medium-->
@@ -39,14 +41,18 @@
                 </ul>
             </div>
         </nav>
-
-        <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                  <h1 class="animated slideInLeft" class="hero-text">Hi I'm Lucy</h1>
-                  <p class="animated slideInRight" class="hero-text">A Second Year Computer Science Student</p>
-                  <img src="Me.jpg" class = "profile-picture" class="rounded-circle" class="animated slideInUp" alt="ProfilePic">
+        <header class="full-page-image">
+            <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <div class="intro-text">
+                        <h1 class="animated slideInLeft delay-2s" class="intro">Hiya! I'm Lucy,</h1>
+                        <p class="animated slideInRight delay-3s" class ="intro"> A second year Computer Science Student!</p>
+                    </div>
+                    <button  type="button" class="btn btn-dark" class ="animated fadeInUp delay-4s">Click here to see more (or something)</button>
                 </div>
-        </div>
-
+              </div>
+            </div>
+          </header>
     </body>
 </html>
