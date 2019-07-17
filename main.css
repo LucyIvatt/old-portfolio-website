@@ -1,6 +1,27 @@
 body {
-    font-family: 'Karla', sans-serif;
-    background: #292929;
-    align-content: center;
+    background-color: #202833;
+    font-family: Karla, sans-serif;
+    height: 100%;
+  }
+  html{
+    height: 100%;
+  }
+  
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    min-height: 100vh;
+  }
+
+  .navbar-dark {
+      background-color: #0B0C10;
+      border-bottom: 2px solid #51A7D9;
+  }
+
+  .landing-page img {
+    margin: auto;    
+    display: block;
 }
