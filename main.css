@@ -88,8 +88,6 @@ body {
   left: 0;
 }
 
-@media only screen and (max-width: 600px) {
-  .mobile-padding {
-    padding-bottom: 10px;;
-  }
+[class*="col-"] {
+  margin-bottom: 40px;
 }
