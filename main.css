@@ -1,15 +1,16 @@
 body {
     background-color: #191C25;
     font-family: Karla, sans-serif;
-    height: 100%;
+    height: 100vh;
     overflow-x: hidden;
     padding: 0;
     margin: 0;
     position: relative;
+    padding-top: 50px;
 
   }
   html{
-    height: 100%;
+    height: 100vh;
     scroll-behavior: smooth;
   }
   
@@ -23,7 +24,7 @@ body {
   .navbar-dark {
       background-color: #0B0C10;
       border-bottom: 2px solid #51A7D9;
-      height: 50px;
+      height: 60px;
   }
 
   .landing-page img {
@@ -39,9 +40,9 @@ body {
 
   .fullscreen-not-home {
     width: 100vw;
-    height: -moz-calc(100vh - 50px); /* Firefox */
-    height: -webkit-calc(100vh - 50px); /* Chrome, Safari */
-    height: calc(100vh - 50px);
+    height: -moz-calc(100vh - 60px); /* Firefox */
+    height: -webkit-calc(100vh - 60px); /* Chrome, Safari */
+    height: calc(100vh - 60px);
     margin: 0, 0, 0, 0;
 
   }
@@ -81,17 +82,8 @@ body {
   background: #555; 
 }
 
-#target {
-  position: relative;
-  border-top: 52px solid transparent;
-  margin: -30px 0 0;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding;
-  background-clip: padding-box;
-}
-
 .scroll-anchor {
   position: relative;
-  top: -50px;
+  top: -60px;
   left: 0;
 }
