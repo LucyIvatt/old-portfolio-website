@@ -24,7 +24,7 @@ body {
   .navbar-dark {
       background-color: #0B0C10;
       border-bottom: 2px solid #51A7D9;
-      height: 60px;
+      min-height: 60px;
   }
 
   .landing-page img {
