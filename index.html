@@ -1,162 +1,123 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Custom CSS and Animations and Icons -->
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Fjalla One, Karla, Roboto and Icons -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href=main.css>
+
+    <!-- Fjalla One and Karla Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-    
+    <script type="text/javascript" src="scripts/particles.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'scripts/particle-config.json', function() {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
+
     <title>Lucy Ivatt's Portfolio</title>
-  </head>
 
-  <!-- Website Code -->
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-          <a href="#" class="navbar-brand">Lucy Ivatt</a>
-          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-              <span class="navbar-toggler-icon"></span>
+</head>
+
+<!-- Website Code -->
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Lucy Ivatt</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-      
-          <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-              <div class="navbar-nav">
-                  <a href="#home" class="nav-item nav-link active">Home</a>
-                  <a href="#education" class="nav-item nav-link">Education</a>
-                  <a href="#workexperience" class="nav-item nav-link">Work Experience</a>
-                  <a href="#skills" class="nav-item nav-link">Skills</a>
-                  <a href="#graphicdesign" class="nav-item nav-link">Graphic Design</a>
-                  <a href="#projects" class="nav-item nav-link">Projects</a>
-                  
-              </div>
-          </div>
-      </nav>
-    <div class="landing-page fullscreen" id="home">
-        <div class="container">
-          <div class="row align-items-center">
-              <div class="col-md-6 animated slideInLeft col-margin" style="color: #ffffff;">
-                  <h4 style="color:#51A7D9;"> Hello! I'm</h4>
-                  <h1 style="color:#F5F5F5; font-size: 100px"> Lucy Ivatt</h1>
-                  <h3 style="color:#EAEBEC"> A second year Computer Science student</h1>
-                  <p style="color:#B3B4B7; padding-top: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget suscipit ipsum. Donec lectus tortor, mattis id risus ac, cursus interdum lorem. Morbi sit amet placerat sem. Phasellus eget lorem ante. In iaculis massa turpis, eu sodales erat lacinia ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla sollicitudin lacus diam, ac ornare nibh pretium ac.</p>
-                  <div class="social-icons"">
-                    <a href="https://github.com/Luceapuce" class="fab fa-github-square"></a>
-                    <a href="https://twitter.com/LuceapuceV2" class="fab fa-twitter"></a>
-                    <a href="mailto:lucyivatt@gmail.com" class="fab fa-google"></a>
-                    <a href="https://www.linkedin.com/in/lucy-ivatt-29b7b8189/" class="fab fa-linkedin-square"></a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tech_skills">Technical Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
 
-                  </div>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
 
-              <div class="col-md-6 animated slideInRight delay-1s" style="color: #ffffff;">
-                  <img src="assets/Me.png" class="rounded img-fluid" alt="Rounded Image">
-                </div>
-          </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Art and Design</a>
+                    </li>
+
+                </ul>
+            </div>
         </div>
-    </div>
+    </nav>
 
-
-    <div class="fullscreen-not-home" style="border: 4px solid red;">
-      <div class="scroll-anchor" id=education></div>
-      <div class="container">
-        <h1 style="color:#F5F5F5; padding-top: 30px;">Education</h1>
-          <table class="table table-borderless educationinfo">
-              <tbody>
-                <tr>
-                  <td class="text-left" style="font-size: 25px">Branston Community Academy - GCSEs</td>
-                  <td class="text-right" style="font-size: 20px">September 2011 - June 2016</td>
-                </tr>
-
-                <tr>
-                  <td class="text-left" style="padding-bottom: 40px;">6 A*s, 1 Distinction*, 4 As and a B including an A* in Mathematics and an A in
-                      English. </td>
-                </tr>
-
-                <tr>
-                    <td class="text-left" style="font-size: 25px">Branston Community Academy Sixthform - A-Levels</td>
-                    <td class="text-right" style="font-size: 20px">September 2016 - June 2018</td>
-                </tr>
-
-                <tr>
-                  <td class="text-left" style="padding-bottom: 40px;">Mathematics A, Chemistry A and Computing Distinction* (Cambridge Technical Level 3) </td>
-                </tr>
-
-                <tr>
-                    <td class="text-left" style="font-size: 25px">University of York - MEng (Hons) Computer Science</td>
-                    <td class="text-right" style="font-size: 20px; width: 30%;">September 2018 - Present</td>
-                </tr>
-
-                <tr>
-                    <td class="text-left">
-                      <p>Programming of micro-controllers: 83% (10 Credits)</p>
-                      <p>Mathematical Foundations of Computer Science: 80% (20 Credits) </p>
-                      <p>Foundation in Electronics, Signals & Circuits: 80% (20 Credits)</p>
-                      <p>Introduction to Computer Architectures: 78% (15 Credits)</p>
-                      <p>Human Aspects of Computer Science: 75% (20 Credits)</p>
-                      <p>Numerical Analysis: 71% (10 Credits)</p>
-                      <p>Theory & Practice of Programming: 70% (20 Credits)</p>
-                      <p>Skills, Knowledge & Independent Learning: 83% (5 Credits)</p>
-                      <p><b>Overall Weighted Average Year 1: 76 (First-Class Honours)</b></p>
-
-                </tr>
-
-              </tbody>
-            </table>
+    <!-- Full Page Image Header with Vertically Centered Content https://codepen.io/shamim539/pen/aYJKZb/-->
+    <section id="home">
+        <div id="particles-js"></div>
+        <div class="text">
+            <h1>Hey! I'm Lucy</h1>
+            <p>A second year computer science student from the University of York ¯\_(ツ)_/¯</p>
         </div>
+    </section>
+
+    <div class="masthead"></div>
+
+    <!-- Page Content -->
+    <section id="tech_skills" style="background-color: orangered;">
+        <div class="container tech_skills my-0">
+            <h1>Technical Skills <small class="text-muted">Software and Lanuages</small></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna lacinia, condimentum felis id, consequat tellus. Phasellus eu erat non nibh fringilla porttitor sagittis eu tortor. Sed et condimentum nisi, quis dapibus neque.
+                Vestibulum id bibendum massa. Ut tincidunt nulla id massa ornare faucibus. Aenean commodo convallis dictum. Etiam nulla nisi, aliquet quis fermentum et, vestibulum sit amet tortor. Aenean non sapien at risus varius viverra vel non nisl.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque et enim tortor. Aliquam elementum vitae est vel fringilla. Ut at porta nibh. Nulla facilisi.</p>
         </div>
-    </div>
+    </section>
 
-    <div class="fullscreen-not-home" style="border: 4px solid orange;">
-      <div class="scroll-anchor" id=workexperience></div>
-        <div class="container">
-        <h1 style="color:#F5F5F5;">Work Experience</h1>
+    <section id="education" style="background-color: orangered;">
+        <div class="container education my-0">
+            <h1>Education <small class="text-muted">Subjects and Grades</small></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna lacinia, condimentum felis id, consequat tellus. Phasellus eu erat non nibh fringilla porttitor sagittis eu tortor. Sed et condimentum nisi, quis dapibus neque.
+                Vestibulum id bibendum massa. Ut tincidunt nulla id massa ornare faucibus. Aenean commodo convallis dictum. Etiam nulla nisi, aliquet quis fermentum et, vestibulum sit amet tortor. Aenean non sapien at risus varius viverra vel non nisl.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque et enim tortor. Aliquam elementum vitae est vel fringilla. Ut at porta nibh. Nulla facilisi.</p>
         </div>
-      </div>
+    </section>
 
-      
+    <section id="projects" style="background-color: orangered;">
+        <div class="container projects">
+            <h1>Programming <small class="text-muted">Projects and Useful Scripts</small></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna lacinia, condimentum felis id, consequat tellus. Phasellus eu erat non nibh fringilla porttitor sagittis eu tortor. Sed et condimentum nisi, quis dapibus neque.
+                Vestibulum id bibendum massa. Ut tincidunt nulla id massa ornare faucibus. Aenean commodo convallis dictum. Etiam nulla nisi, aliquet quis fermentum et, vestibulum sit amet tortor. Aenean non sapien at risus varius viverra vel non nisl.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque et enim tortor. Aliquam elementum vitae est vel fringilla. Ut at porta nibh. Nulla facilisi.</p>
+        </div>
+    </section>
 
-    <div class="fullscreen-not-home" style="border: 4px solid yellow;">
-      <div class="scroll-anchor" id=skills></div>
-      <div class="container">
-        <h1 style="color:#F5F5F5;">Technical Skills</h1>
-      </div>
-    </div>
-    
-    
+    <section id="projects" style="background-color: orangered;">
+        <div class="container art">
+            <h1>Art and Design <small class="text-muted">Graphics and Drawing</small></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna lacinia, condimentum felis id, consequat tellus. Phasellus eu erat non nibh fringilla porttitor sagittis eu tortor. Sed et condimentum nisi, quis dapibus neque.
+                Vestibulum id bibendum massa. Ut tincidunt nulla id massa ornare faucibus. Aenean commodo convallis dictum. Etiam nulla nisi, aliquet quis fermentum et, vestibulum sit amet tortor. Aenean non sapien at risus varius viverra vel non nisl.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque et enim tortor. Aliquam elementum vitae est vel fringilla. Ut at porta nibh. Nulla facilisi.</p>
+        </div>
+    </section>
 
-    <div class="fullscreen-not-home" style="border: 4px solid green;">
-      <div class="scroll-anchor" id=graphicdesign></div>
-      <div class="container">
-        <h1 style="color:#F5F5F5;">Graphic Design Portfolio </h1>
-      </div>
-    </div>
 
-    <div class="fullscreen-not-home" style="border: 4px solid blue;">
-      <div class="scroll-anchor" id=projects></div>
-      <div class="container">
-        <h1 style="color:#F5F5F5;">Other Projects</h1>
-      </div>
-    </div>
-
-    
-
-      
     <!-- Optional JavaScript -->
-    <script src="closeafterclick.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
