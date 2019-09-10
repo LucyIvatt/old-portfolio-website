@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 canvas {
     display: block;
 }
@@ -11,7 +15,7 @@ canvas {
     position: absolute;
     width: 100%;
     height: calc(100% - 54px);
-    background-color: #0F0F0F;
+    background-color: #0D0D0D;
 }
 
 .text {
@@ -28,9 +32,10 @@ canvas {
 }
 
 .masthead {
-    width: 100vh;
+    width: 100%;
     height: calc(100vh - 54px);
     position: relative;
+    z-index: -1;
 }
 
 h1 {
@@ -40,15 +45,23 @@ h1 {
 }
 
 .tech_skills {
-    background-color: #233342;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .education {
     text-align: right;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-.projects {}
+.projects {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 
 .art {
     text-align: right;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
