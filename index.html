@@ -12,7 +12,12 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href=main.css>
 
-    <!-- Fonts -->
+    <!-- Fjalla One, Karla, Roboto and Icons -->
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
 
     <!-- Particle.js -->
     <script type="text/javascript" src="scripts/particles.js"></script>
@@ -27,9 +32,9 @@
 
 <body data-spy="scroll" data-target=".navbar">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow static-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Lucy Ivatt</a>
+            <a class="navbar-brand" href="#" style="font-family: 'Karla', sans-serif;">Lucy Ivatt</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -60,22 +65,29 @@
         </div>
     </nav>
 
-    <!-- Full Page Image Header isng particles.js with Vertically Centered Content https://codepen.io/shamim539/pen/aYJKZb/-->
+    <!-- Full Page Image Header using particles.js with Vertically Centered Content https://codepen.io/shamim539/pen/aYJKZb/-->
     <section id="home">
         <div id="particles-js"></div>
-        <div class="text">
-            <h1>Hey! I'm Lucy</h1>
-            <p>A second year computer science student from the University of York ¯\_(ツ)_/¯</p>
+        <div class="container text">
+            <!-- Avatar Image<img src="assets/avatardrawing.png" class="img-rounded" alt="Cinque Terre" style="max-width: 200px; padding-bottom: 10px;"> -->
+            <h4 style="color:#51A7D9;"> Hello! I'm</h4>
+            <h1 style="color:#F5F5F5; font-size: 80px; font-family: 'Roboto'"> Lucy Ivatt</h1>
+            <h3 style="color:#EAEBEC; font-size: 25px"> A second year computer Science student at the University of York</h1>
+                <p style="color:#B3B4B7; padding-top: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget suscipit ipsum.</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Luceapuce " class="fab fa-github-square "></a>
+                    <a href="https://twitter.com/LuceapuceV2 " class="fab fa-twitter "></a>
+                    <a href="mailto:lucyivatt@gmail.com " class="fab fa-google "></a>
+                    <a href="https://www.linkedin.com/in/lucy-ivatt-29b7b8189/ " class="fab fa-linkedin"></a>
+                </div>
         </div>
     </section>
-
-    <div class="masthead"></div>
 
     <!-- Page Content -->
-    <section style="background-color: #233342;">
-        <div class="scroll-anchor" id="tech_skills"></div>
-        <div class="container tech_skills my-0">
-            <h1>Technical Skills <small class="text-muted">Software and Lanuages</small></h1>
+    <section style="background-color: #233342; ">
+        <div class="scroll-anchor " id="tech_skills "></div>
+        <div class="container tech_skills ">
+            <h1>Technical Skills <small class="text-muted ">Software and Lanuages</small></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna lacinia, condimentum felis id, consequat tellus. Phasellus eu erat non nibh fringilla porttitor sagittis eu tortor. Sed et condimentum nisi, quis dapibus neque.
                 Vestibulum id bibendum massa. Ut tincidunt nulla id massa ornare faucibus. Aenean commodo convallis dictum. Etiam nulla nisi, aliquet quis fermentum et, vestibulum sit amet tortor. Aenean non sapien at risus varius viverra vel non nisl.
                 Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque et enim tortor. Aliquam elementum vitae est vel fringilla. Ut at porta nibh. Nulla facilisi.</p>
@@ -88,30 +100,30 @@
         </div>
     </section>
 
-    <section style="background-color: #4B2B31;">
-        <div class="scroll-anchor" id="education"></div>
-        <div class="container education my-0">
-            <h1>Education <small class="text-muted">Subjects and Grades</small></h1>
+    <section style="background-color: #4B2B31; ">
+        <div class="scroll-anchor " id="education "></div>
+        <div class="container education ">
+            <h1>Education <small class="text-muted ">Subjects and Grades</small></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna lacinia, condimentum felis id, consequat tellus. Phasellus eu erat non nibh fringilla porttitor sagittis eu tortor. Sed et condimentum nisi, quis dapibus neque.
                 Vestibulum id bibendum massa. Ut tincidunt nulla id massa ornare faucibus. Aenean commodo convallis dictum. Etiam nulla nisi, aliquet quis fermentum et, vestibulum sit amet tortor. Aenean non sapien at risus varius viverra vel non nisl.
                 Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque et enim tortor. Aliquam elementum vitae est vel fringilla. Ut at porta nibh. Nulla facilisi.</p>
         </div>
     </section>
 
-    <section style="background-color: #6F3637;">
-        <div class="scroll-anchor" id="projects"></div>
-        <div class="container projects">
-            <h1>Programming <small class="text-muted">Projects and Useful Scripts</small></h1>
+    <section style="background-color: #6F3637; ">
+        <div class="scroll-anchor " id="projects "></div>
+        <div class="container projects ">
+            <h1>Programming <small class="text-muted ">Projects and Useful Scripts</small></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna lacinia, condimentum felis id, consequat tellus. Phasellus eu erat non nibh fringilla porttitor sagittis eu tortor. Sed et condimentum nisi, quis dapibus neque.
                 Vestibulum id bibendum massa. Ut tincidunt nulla id massa ornare faucibus. Aenean commodo convallis dictum. Etiam nulla nisi, aliquet quis fermentum et, vestibulum sit amet tortor. Aenean non sapien at risus varius viverra vel non nisl.
                 Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque et enim tortor. Aliquam elementum vitae est vel fringilla. Ut at porta nibh. Nulla facilisi.</p>
         </div>
     </section>
 
-    <section style="background-color: #B35340;">
-        <div class="scroll-anchor" id="art"></div>
-        <div class="container art">
-            <h1>Art and Design <small class="text-muted">Graphics and Drawing</small></h1>
+    <section style="background-color: #B35340; ">
+        <div class="scroll-anchor " id="art "></div>
+        <div class="container art ">
+            <h1>Art and Design <small class="text-muted ">Graphics and Drawing</small></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna lacinia, condimentum felis id, consequat tellus. Phasellus eu erat non nibh fringilla porttitor sagittis eu tortor. Sed et condimentum nisi, quis dapibus neque.
                 Vestibulum id bibendum massa. Ut tincidunt nulla id massa ornare faucibus. Aenean commodo convallis dictum. Etiam nulla nisi, aliquet quis fermentum et, vestibulum sit amet tortor. Aenean non sapien at risus varius viverra vel non nisl.
                 Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque et enim tortor. Aliquam elementum vitae est vel fringilla. Ut at porta nibh. Nulla facilisi.</p>
@@ -121,9 +133,9 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
 </body>
 
 </html>
