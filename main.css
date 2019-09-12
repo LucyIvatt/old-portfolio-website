@@ -21,6 +21,15 @@
         background-color: #0D0D0D;
     }
     
+    .btn-primary{
+        background-color: #51A7D9 !important;
+        color: #24344C !important;
+        border: #51A7D9 2px solid;
+    }
+    p {
+        color: #8D99AA;
+
+    }
     .text {
         position: absolute;
         top: 50%;
@@ -33,7 +42,7 @@
         font-family: 'Karla', sans-serif;
         text-align: center;
     }
-    
+
     .masthead {
         width: 100%;
         height: calc(100vh - 54px);
@@ -94,7 +103,7 @@
     }
     
     .navbar-dark {
-        background-color: #101010;
+        background-color: #141414;
         border-bottom: 2px solid #51A7D9;
         min-height: 56px;
     }
@@ -149,4 +158,8 @@
         h4.intro_hi {
             font-size: 20px;
         }
+    }
+
+    .project_cards {
+        margin-top: 20px;
     }
