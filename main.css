@@ -47,23 +47,23 @@
         letter-spacing: -1px;
     }
     
-    .tech_skills {
+    .tech_skills_content {
         padding-top: 1em;
         padding-bottom: 1em;
     }
     
-    .education {
+    .education_content {
         text-align: right;
         padding-top: 1em;
         padding-bottom: 1em;
     }
     
-    .projects {
+    .projects_content {
         padding-top: 1em;
         padding-bottom: 1em;
     }
     
-    .art {
+    .art_content {
         text-align: right;
         padding-top: 1em;
         padding-bottom: 1em;
@@ -119,18 +119,33 @@
         padding-top: 5px;
     }
     
+    h4.intro_hi {
+        color: #51A7D9;
+    }
+    
+    .fas {
+        color: #F5F5F5;
+    }
+    
+    .fas:hover {
+        color: #B3B4B7;
+    }
+    
     @media only screen and (max-width: 600px) {
         .fab {
-            font-size: 35px;
+            font-size: 30px;
         }
         h1.intro_name {
             color: #F5F5F5;
-            font-size: 60px;
+            font-size: 40px;
         }
         h3.intro_student {
-            font-size: 20px;
+            font-size: 15px;
         }
         p.intro_bio {
-            font-size: 14px;
+            font-size: 12px;
+        }
+        h4.intro_hi {
+            font-size: 20px;
         }
     }
