@@ -22,7 +22,6 @@
     }
     
     .text {
-        margin-top: 56px;
         position: absolute;
         top: 50%;
         right: 50%;
@@ -84,8 +83,9 @@
         font-size: 50px;
         text-align: center;
         text-decoration: none;
-        color: #51A7D9;
-        padding-right: 20px;
+        color: rgb(170, 201, 219);
+        padding-right: 10px;
+        padding-left: 10px
     }
     
     .fab:hover {
@@ -102,4 +102,35 @@
     .img-fluid {
         max-width: 500px;
         max-height: auto;
+    }
+    
+    h1.intro_name {
+        color: #F5F5F5;
+        font-size: 100px
+    }
+    
+    h3.intro_student {
+        color: #EAEBEC;
+        font-size: 25px
+    }
+    
+    p.intro_bio {
+        color: #B3B4B7;
+        padding-top: 5px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .fab {
+            font-size: 35px;
+        }
+        h1.intro_name {
+            color: #F5F5F5;
+            font-size: 60px;
+        }
+        h3.intro_student {
+            font-size: 20px;
+        }
+        p.intro_bio {
+            font-size: 14px;
+        }
     }
