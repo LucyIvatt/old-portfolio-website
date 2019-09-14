@@ -152,6 +152,14 @@
     .project_cards {
         margin-top: 20px;
     }
+
+    .right{
+        float:right;
+    }
+    
+    .left{
+        float:left;
+    }
     @media only screen and (max-width: 600px) and (orientation: portrait) {
         .fab {
             font-size: 30px;
