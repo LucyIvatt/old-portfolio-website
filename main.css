@@ -57,25 +57,25 @@
     }
     
     .tech_skills_content {
-        padding-top: 1em;
-        padding-bottom: 1em;
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
     }
     
     .education_content {
         text-align: right;
-        padding-top: 1em;
-        padding-bottom: 1em;
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
     }
     
     .projects_content {
-        padding-top: 1em;
-        padding-bottom: 1em;
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
     }
     
     .art_content {
         text-align: right;
-        padding-top: 1em;
-        padding-bottom: 1em;
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
     }
     
     .scroll-anchor {
@@ -140,7 +140,19 @@
         color: #B3B4B7;
     }
 
-    @media only screen and (max-width: 600px) {
+    .software_icons {
+        max-height: 125px;
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+    .project_cards {
+        margin-top: 20px;
+    }
+    @media only screen and (max-width: 600px) and (orientation: portrait) {
         .fab {
             font-size: 30px;
         }
@@ -158,8 +170,13 @@
         h4.intro_hi {
             font-size: 20px;
         }
+
+        .software_icons {
+        max-height: 110px;
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        }
     }
 
-    .project_cards {
-        margin-top: 20px;
-    }
