@@ -160,7 +160,15 @@
     .left{
         float:left;
     }
+
+    .center-card {
+        z-index: 10;
+    }
     @media only screen and (max-width: 600px) and (orientation: portrait) {
+        .center-card {
+            margin-right: auto !important;
+            margin-left: auto !important;
+        }
         .fab {
             font-size: 30px;
         }
