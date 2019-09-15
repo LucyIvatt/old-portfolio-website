@@ -57,25 +57,25 @@
     }
     
     .tech_skills_content {
-        padding-top: 2.5em;
-        padding-bottom: 2.5em;
+        padding-top: 1.75em;
+        padding-bottom: 1.75em;
     }
     
     .education_content {
         text-align: right;
-        padding-top: 2.5em;
-        padding-bottom: 2.5em;
+        padding-top: 1.75em;
+        padding-bottom: 1.75em;
     }
     
     .projects_content {
-        padding-top: 2.5em;
-        padding-bottom: 2.5em;
+        padding-top: 1.75em;
+        padding-bottom: 1.75em;
     }
     
     .art_content {
         text-align: right;
-        padding-top: 2.5em;
-        padding-bottom: 2.5em;
+        padding-top: 1.75em;
+        padding-bottom: 1.75em;
     }
     
     .scroll-anchor {
@@ -188,3 +188,13 @@
         }
     }
 
+    .footer {
+        background-color: #141414;
+        text-align: center;
+    }
+     .footer_icons {
+        font-size: 40px; 
+        color: #C0C5CC;
+        padding-top: 10px;
+        padding-bottom: 10px;
+     }
